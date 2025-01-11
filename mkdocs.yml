@@ -1,5 +1,5 @@
-site_name: Hidku Platform Playbook
-site_url:  https://platform.hidku.com
+site_name: Hidku Security TextBook
+site_url:  https://security.hidku.com
 theme:
   name: material
   custom_dir: docs/overrides
