@@ -16,11 +16,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-    ``` mermaid
-    graph LR
-      A[Start] --> B{Error?};
-      B -->|Yes| C[Hmm...];
-      C --> D[Debug];
-      D --> B;
-      B ---->|No| E[Yay!];
-    ```
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
