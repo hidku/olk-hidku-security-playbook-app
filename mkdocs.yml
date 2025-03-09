@@ -45,14 +45,15 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
-    - search
-    - mermaid2
+  - search:
+      lang: en
+  - mermaid2
 extra_templates:
   - footer.html
 extra_css:
