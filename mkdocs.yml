@@ -50,7 +50,9 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-
+plugins:
+    - search
+    - mermaid2
 extra_templates:
   - footer.html
 extra_css:
