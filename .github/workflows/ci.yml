@@ -22,7 +22,8 @@ jobs:
         with:
           python-version: 3.9
       - run: pip install \
-            mkdocs-material
+            mkdocs-material \
+            mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
  
   deploy_mkdocs:
