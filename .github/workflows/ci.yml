@@ -20,8 +20,9 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: 3.9
+          python-version: 3.13
       - run: pip install \
+            mkdocs \
             mkdocs-material \
             mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
