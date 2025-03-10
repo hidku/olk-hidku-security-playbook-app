@@ -16,6 +16,12 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 ## Project mermaid
-   <div class="mermaid"> ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ``` </div>
+   <div class="mermaid"> ```mermaid graph LR
+    hello --> world
+    world --> again
+    again --> hello ``` </div>
 ## test
-    ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ```
+    ```mermaid graph LR
+    hello --> world
+    world --> again
+    again --> hello ```
