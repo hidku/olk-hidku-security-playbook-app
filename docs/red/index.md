@@ -17,3 +17,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 ## Project mermaid
    <div class="mermaid"> ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ``` </div>
+## test
+    ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ```

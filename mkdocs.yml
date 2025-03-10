@@ -53,7 +53,8 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
-  - mermaid2
+  - mermaid2:
+      version: 10.1.0
 extra_templates:
   - footer.html
 extra_css:
