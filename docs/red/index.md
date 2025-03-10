@@ -25,3 +25,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     hello --> world
     world --> again
     again --> hello ```
+ ## test 2
+ ```mermaid
+graph LR
+  A[Start] --> B{Decision}
+  B -->|Yes| C[End]
+  B -->|No| A   

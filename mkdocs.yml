@@ -42,7 +42,6 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.superfences:
-        # make exceptions to highlighting of code:
       custom_fences:
         - name: mermaid
           class: mermaid
@@ -60,3 +59,6 @@ extra_templates:
   - footer.html
 extra_css:
   - 'stylesheets/extra.css'
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
