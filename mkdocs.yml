@@ -53,17 +53,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
-  - mermaid2:
-      version: '10.1.0'
-      arguments:
-        theme: 'dark'
-        themeVariables:
-          primaryColor: '#BB2528'
-          primaryTextColor: '#fff'
-          primaryBorderColor: '#7C0000'
-          lineColor: '#F8B229'
-          secondaryColor: '#006100'
-          tertiaryColor: '#fff'
+  - mermaid2
 extra_templates:
   - footer.html
 extra_css:

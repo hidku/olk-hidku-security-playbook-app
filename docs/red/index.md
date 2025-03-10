@@ -16,9 +16,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 ## Project mermaid
-    ```mermaid
-    graph LR
-        hello --> world
-        world --> again
-        again --> hello
-    ```
+   <pre> ```mermaid graph TD; A-->B; A-->C; B-->D; C-->D; ``` </pre>
