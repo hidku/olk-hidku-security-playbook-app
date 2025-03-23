@@ -15,4 +15,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-<pre> ```mermaid graph TD A[Start] --> B{Decision} B -->|Yes| C[Do something] B -->|No| D[Do something else] ``` </pre>
+<pre> ```mermaid graph TD A --> B B --> C ``` </pre>
