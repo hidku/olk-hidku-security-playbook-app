@@ -25,7 +25,8 @@ graph LR
     ```mermaid graph LR
     hello --> world
     world --> again
-    again --> hello ```
+    again --> hello 
+    ```
  ## test 2
  ```mermaid
 graph LR
