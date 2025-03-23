@@ -4,7 +4,7 @@ theme:
 
 plugins:
   - search
-  - mermaid
+  - mermaid2
 
 markdown_extensions:
   - pymdownx.superfences
