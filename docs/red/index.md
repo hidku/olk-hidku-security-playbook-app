@@ -16,20 +16,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 ## Project mermaid
-   <div class="mermaid"> ```mermaid
-graph LR
-  A[Start] --> B{Decision}
-  B -->|Yes| C[End]
-  B -->|No| A    </div>
-## test
-    ```mermaid graph LR
-    hello --> world
-    world --> again
-    again --> hello 
-    ```
- ## test 2
- ```mermaid
-graph LR
-  A[Start] --> B{Decision}
-  B -->|Yes| C[End]
-  B -->|No| A   
+<pre> ```mermaid graph LR hello --> world world --> again again --> hello ``` </pre> 
