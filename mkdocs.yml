@@ -1,5 +1,6 @@
 site_name: Hidku Security Playbook
-site_url:  https://security.hidku.com
+site_url: https://security.hidku.com
+
 theme:
   name: material
   custom_dir: docs/overrides
@@ -41,13 +42,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid_custom
   - pymdownx.tabbed
-  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -55,8 +50,10 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
+
 extra_templates:
   - footer.html
+
 extra_css:
   - 'stylesheets/extra.css'
 
