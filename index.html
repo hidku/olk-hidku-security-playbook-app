@@ -732,6 +732,14 @@ docs/
 </code></pre></div>
 <pre> ```mermaid graph TD A --> B B --> C ``` </pre>
 
+<h1 id="test-mermaid">Test Mermaid</h1>
+<pre class="mermaid"><code>graph LR
+  A[Start] --&gt; B{Error?};
+  B --&gt;|Yes| C[Hmm...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Yay!];</code></pre>
+
 
 
 
