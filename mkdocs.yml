@@ -54,7 +54,9 @@ plugins:
   - search:
       lang: en
   - mermaid2:
-      version: 10.1.0
+      version: "10.4.0"  # or your preferred version
+      arguments:
+        theme: "default"
 extra_templates:
   - footer.html
 extra_css:
