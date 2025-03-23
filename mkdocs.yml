@@ -3,14 +3,17 @@ theme:
   name: material
 
 plugins:
-  - search
-  - mermaid2
+  - searchs
 
 markdown_extensions:
   - pymdownx.highlight:
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
   - pymdownx.critic
   - pymdownx.caret
