@@ -58,5 +58,5 @@ extra_css:
   - 'stylesheets/extra.css'
 
 extra_javascript:
-  - https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js
-  - js/mermaid-init.js
+  - 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js'
+  - 'js/mermaid-init.js'
